@@ -103,6 +103,8 @@ class Cookie
             $str .= '; httponly';
         }
 
+        $str .= '; samesite=none';
+
         return $str;
     }
 
